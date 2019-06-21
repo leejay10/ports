@@ -1,0 +1,36 @@
+@tailwind base;
+
+body{
+	@apply .text-sm;
+	font-family: "sans-serif";
+}
+
+
+.nisbutton{height:32px; position:relative; background:url('/images/nisbutton.png') 0px -100%/24px 400% repeat content-box; cursor:pointer; text-align:center; color:#000; font-family:'trajan-pro-3'; text-shadow:1px 1px 2px #ECC622; font-size:18px; margin:5px; padding:0px 12px; line-height:32px; user-select:none; -webkit-user-select:none;}
+.nisbutton::before{width:12px; height:100%; content:""; position:absolute; top:0px; left:0px; background:url('/nis/alt1-currentskin/nisbutton.png') 0px 0px / 24px 400%;}
+.nisbutton::after{width:12px; height:100%; content:""; position:absolute; top:0px; right:0px; background:url('/nis/alt1-currentskin/nisbutton.png') -12px 0px / 24px 400%;}
+.nisbutton:hover{background-position:0px -300%;}
+.nisbutton:hover::before{background-position:0px -200%;}
+.nisbutton:hover::after{background-position:-12px -200%;}
+.nisbutton:active, .nisbutton.fakeactive{-webkit-filter:brightness(1.2); filter:brightness(1.2);}
+.nissmallbutton{line-height:26px; height:26px; font-size:12px;}
+
+.bg-nis{
+	background: url(/images/background.png);
+}
+
+.bg-nis-dark{
+	background: url(/images/background_bright.png);
+}
+
+.input{
+	@apply .w-full;
+	@apply .border;
+	@apply .border-white;
+	@apply .text-white;
+	@apply .cursor-pointer;
+	background: url(/images/background.png);
+}
+
+@tailwind components;
+@tailwind utilities;

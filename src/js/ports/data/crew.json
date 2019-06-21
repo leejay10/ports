@@ -1,0 +1,448 @@
+[
+	{
+		"name": "The Arc",
+		"sailors": [
+			[
+				"/images/4/4f/Travelling_Drunk.png?f4548",
+				"Travelling Drunk",
+				"70",
+				"0",
+				"0"
+			],
+			[
+				"/images/c/c9/Stowaway.png?26ab7",
+				"Stowaway",
+				"0",
+				"70",
+				"0"
+			],
+			[
+				"/images/1/1b/Smuggler_%28Player-owned_port%29.png?b2694",
+				"Smuggler",
+				"0",
+				"0",
+				"70"
+			],
+			[
+				"/images/e/e4/Varrock_Chef.png?9e8d5",
+				"Varrock Chef",
+				"150",
+				"0",
+				"0"
+			],
+			[
+				"/images/8/8e/Brimhaven_Pirate.png?8ff78",
+				"Brimhaven Pirate",
+				"0",
+				"150",
+				"0"
+			],
+			[
+				"/images/a/af/Catherby_Fisherman.png?ed3f5",
+				"Catherby Fisherman",
+				"0",
+				"0",
+				"150"
+			],
+			[
+				"/images/0/05/Dwarven_Engineer_%28Player-owned_port%29.png?638a8",
+				"Dwarven Engineer",
+				"0",
+				"0",
+				"0"
+			],
+			[
+				"/images/a/ac/Ardougne_Shopkeeper.png?26745",
+				"Ardougne Shopkeeper",
+				"50",
+				"0",
+				"0"
+			],
+			[
+				"/images/4/4c/Bamboo_Golem.png?7793f",
+				"Bamboo Golem",
+				"60",
+				"100",
+				"0"
+			],
+			[
+				"/images/5/58/First_Mate.png?b0318",
+				"First Mate",
+				"50",
+				"50",
+				"50"
+			],
+			[
+				"/images/1/17/Cyclops_%28Player-owned_port%29.png?29ac2",
+				"Cyclops",
+				"100",
+				"150",
+				"0"
+			]
+		] 
+	},
+	{
+		"name": "The Skull",
+		"sailors": [
+			[
+				"/images/f/f5/Eastern_Bannerman.png?2ece6",
+				"Eastern Bannerman",
+				"350",
+				"0",
+				"0"
+			],
+			[
+				"/images/8/84/Eastern_Musketeer.png?904d5",
+				"Eastern Musketeer",
+				"0",
+				"350",
+				"0"
+			],
+			[
+				"/images/8/86/Eastern_Guide.png?2cc35",
+				"Eastern Guide",
+				"0",
+				"0",
+				"350"
+			],
+			[
+				"/images/c/c4/Fireworks_Enthusiast.png?09ab6",
+				"Fireworks Enthusiast",
+				"0",
+				"0",
+				"0"
+			],
+			[
+				"/images/6/63/Palmist.png?44044",
+				"Palmist",
+				"0",
+				"0",
+				"200"
+			],
+			[
+				"/images/6/61/Exploding_Golem.png?e9048",
+				"Exploding Golem",
+				"170",
+				"200",
+				"0"
+			],
+			[
+				"/images/a/af/Eastern_Overseer.png?08835",
+				"Eastern Overseer",
+				"120",
+				"120",
+				"120"
+			],
+			[
+				"/images/2/25/Siren_Whalerider.png?099cb",
+				"Siren Whalerider",
+				"0",
+				"200",
+				"350"
+			]
+		]
+	},
+	{
+		"name": "The Hook",
+		"sailors": [
+			[
+				"/images/a/ad/Blazing_Lantern_Clansman.png?6b291",
+				"Blazing Lantern Clansman",
+				"500",
+				"0",
+				"0"
+			],
+			[
+				"/images/1/12/Golden_Katana_Clansman.png?b5907",
+				"Golden Katana Clansman",
+				"0",
+				"500",
+				"0"
+			],
+			[
+				"/images/5/51/Storm_Riders_Clansman.png?2644e",
+				"Storm Riders Clansman",
+				"0",
+				"0",
+				"500"
+			],
+			[
+				"/images/6/60/Firework_Expert.png?b945e",
+				"Firework Expert",
+				"0",
+				"0",
+				"0"
+			],
+			[
+				"/images/0/06/Trader.png?20740",
+				"Trader",
+				"150",
+				"0",
+				"0"
+			],
+			[
+				"/images/f/fd/Soothsayer.png?7bb9c",
+				"Soothsayer",
+				"0",
+				"0",
+				"300"
+			],
+			[
+				"/images/d/d3/Slate_Golem.png?3f368",
+				"Slate Golem",
+				"250",
+				"300",
+				"0"
+			],
+			[
+				"/images/e/e4/Feral_Chimera.png?3c2e6",
+				"Feral Chimera",
+				"350",
+				"500",
+				"0"
+			]
+		]
+	},
+	{
+		"name": "The Scythe",
+		"sailors": [
+			[
+				"/images/1/12/Card_Sharp.png?613ca",
+				"Card Sharp",
+				"750",
+				"0",
+				"0"
+			],
+			[
+				"/images/5/55/Crows%27_Nest_Sniper.png?027d8",
+				"Crows' Nest Sniper",
+				"0",
+				"750",
+				"0"
+			],
+			[
+				"/images/b/bc/Cartographer.png?fac5b",
+				"Cartographer",
+				"0",
+				"0",
+				"750"
+			],
+			[
+				"/images/7/74/Explosives_Expert.png?6a86b",
+				"Explosives Expert",
+				"0",
+				"0",
+				"0"
+			],
+			[
+				"/images/1/19/Merchant.png?3c8e1",
+				"Merchant",
+				"250",
+				"0",
+				"0"
+			],
+			[
+				"/images/7/75/Cherrywood_Golem.png?f48d8",
+				"Cherrywood Golem",
+				"300",
+				"500",
+				"0"
+			],
+			[
+				"/images/5/5c/Bureaucrat.png?018bb",
+				"Bureaucrat",
+				"250",
+				"250",
+				"250"
+			],
+			[
+				"/images/c/cc/Sea_Witch.png?9d864",
+				"Sea Witch",
+				"350",
+				"0",
+				"750"
+			]
+		]
+	},
+	{
+		"name": "The Bowl",
+		"sailors": [
+			[
+				"/images/a/a3/Farcrier.png?f90a3",
+				"Farcrier",
+				"1,000",
+				"0",
+				"0"
+			],
+			[
+				"/images/1/1d/Bounty_Hunter.png?ad5a4",
+				"Bounty Huner",
+				"0",
+				"1,000",
+				"0"
+			],
+			[
+				"/images/d/db/Sea_Dog.png?c7605",
+				"Sea Dog",
+				"0",
+				"0",
+				"1,000"
+			],
+			[
+				"/images/0/0d/Firework_Maniac.png?00684",
+				"Firework Maniac",
+				"0",
+				"0",
+				"0"
+			],
+			[
+				"/images/a/a3/Jade_Merchant.png?40099",
+				"Jade Merchant",
+				"300",
+				"0",
+				"0"
+			],
+			[
+				"/images/f/f8/Sacrificial_Soothsayer.png?daa26",
+				"Sacrificial Soothsayer",
+				"0",
+				"0",
+				"450"
+			],
+			[
+				"/images/3/35/Jade_Golem.png?55dc3",
+				"Jade Golem",
+				"400",
+				"650",
+				"0"
+			],
+			[
+				"/images/6/68/Judge_of_Dice.png?946ac",
+				"Judge of Dice",
+				"450",
+				"450",
+				"450"
+			]
+		]
+	},
+	{
+		"name": "The Pincers",
+		"sailors": [
+			[
+				"/images/8/87/Travelling_Band.png?04e08",
+				"Travelling Band",
+				"1,200",
+				"0",
+				"0"
+			],
+			[
+				"/images/e/e6/Ferocious_Tiger-Rider.png?973f7",
+				"Ferocious Tiger-Rider",
+				"0",
+				"1,200",
+				"0"
+			],
+			[
+				"/images/e/e4/Harem_of_Fortune_Tellers.png?4920c",
+				"Harem of Fortune Tellers",
+				"0",
+				"0",
+				"1,200"
+			],
+			[
+				"/images/9/9c/Oxhead_and_Horseface.png?734ef",
+				"Oxhead and Horseface",
+				"500",
+				"500",
+				"500"
+			]
+		]
+	},
+	{
+		"name": "The Loop",
+		"sailors": [
+			[
+				"/images/5/55/Party_Animal.png?f1298",
+				"Party Animal",
+				"1,500",
+				"0",
+				"0"
+			],
+			[
+				"/images/4/49/Sea-fort_Guard.png?3ca87",
+				"Sea-fort Guard",
+				"0",
+				"1,500",
+				"0"
+			],
+			[
+				"/images/3/3b/Pearl_Diver.png?a3f08",
+				"Pearl Diver",
+				"0",
+				"0",
+				"1,500"
+			],
+			[
+				"/images/0/07/Reef_Rider.png?ea13d",
+				"Reef Rider",
+				"450",
+				"450",
+				"450"
+			],
+			[
+				"/images/5/5d/Terracotta_Merchant.png?a8f74",
+				"Terracotta Merchant",
+				"650",
+				"0",
+				"0"
+			],
+			[
+				"/images/e/e0/Wisp_%28Player-owned_port%29.png?2c3ee",
+				"Wisp",
+				"300",
+				"750",
+				"750"
+			]
+		]
+	},
+	{
+		"name": "The Shield",
+		"sailors": [
+			[
+				"/images/d/df/Zhonghu_Player.png?dea42",
+				"Zhonghu Player",
+				"2,100",
+				"0",
+				"0"
+			],
+			[
+				"/images/f/fc/Gu_Bodyguard.png?43103",
+				"Gu Bodyguard",
+				"0",
+				"2,100",
+				"0"
+			],
+			[
+				"/images/2/2b/Stargazer.png?20fd0",
+				"Stargazer",
+				"0",
+				"0",
+				"2,100"
+			],
+			[
+				"/images/8/8c/Azure_Golem.png?3e9f3",
+				"Azure Golem",
+				"900",
+				"1,100",
+				"0"
+			],
+			[
+				"/images/1/15/Kharidian_Exile.png?3e64f",
+				"Kharidian Exile",
+				"450",
+				"450",
+				"1,450"
+			]
+		]
+	}
+]

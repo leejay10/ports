@@ -1,8 +1,8 @@
 <template>
-	<div class="flex items-center justify-center cursor-pointer relative" :class="{'bg-green-darker' : isMatched, 'bg-nis-dark' : isSelected}" @click="select" style="width: 60px; height: 60px;">
+	<div class="flex items-center justify-center cursor-pointer relative" :class="{'bg-green-800' : isMatched, 'bg-nis-dark' : isSelected}" @click="select" style="width: 60px; height: 60px;">
 		<img :src="image" alt="">
 
-		<span v-if="model.ship != 0" class="absolute top-0 right-0 w-4 h-4 text-xs rounded-full flex items-center justify-center text-white bg-blue-darker">
+		<span v-if="model.ship != 0" class="absolute top-0 right-0 w-4 h-4 text-xs rounded-full flex items-center justify-center text-white bg-blue-800">
 			{{ model.ship }}
 		</span>
 	</div>

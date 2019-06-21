@@ -19,11 +19,11 @@
 				<!-- Actions -->
 				<div class="w-1/2 px-4">
 					<div>
-						<button class="text-white border border-white p-1 px-2" @click.prevent="dismiss">
+						<button class="text-red-600 border border-red-600 p-1 px-2" @click.prevent="dismiss">
 							<i class="fas fa-ban"></i>
 						</button>
 
-						<button class="text-green border border-green p-1" @click.prevent="levelUp">L+</button>
+						<button class="text-green-500 border border-green-500 p-1" @click.prevent="levelUp">L+</button>
 						<button class="text-white border border-white p-1" @click.prevent="clearShip" v-if="model.ship != 0">Clear ship</button>
 					</div>
 

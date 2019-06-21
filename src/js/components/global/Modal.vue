@@ -47,8 +47,8 @@
 		<div class="modal-mask" @mousedown="$emit('close')">
 			<div class="modal-wrapper">
 				<div class="modal-container" @mousedown.stop :style="{'min-height' : h, 'width': w, 'max-width' : maxW}">
-					<div class="modal-body bg-grey-darkest">						
-						<div class="bg-black text-white p-4">
+					<div class="modal-body bg-gray-800">						
+						<div class="bg-gray-900 text-white p-4">
 							<slot name="title"></slot>
 						</div>
 						

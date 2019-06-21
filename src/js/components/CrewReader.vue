@@ -2,11 +2,11 @@
 	<modal v-if="showModal" @close="showModal = false" w="80%">
 		<h3 slot="title">Could not find the crew member type</h3>
 		<div class="p-4">
-			<p class="text-xs text-white">The reader could not find the crew type. Please copy the data in the box below and send it to Popoplo0 on Discord</p>
+			<p class="text-white">The reader could not find the crew type. Please copy the data in the box below and send it to Popoplo0 on Discord</p>
 
-			<textarea v-html="attempts" class="text-xs mt-4 w-full" rows="12" @click.prevent="selectText"></textarea>
+			<textarea v-html="attempts" class="text-gray-800 mt-4 w-full" rows="8" @click.prevent="selectText"></textarea>
 
-			<button class="inline-block text-white text-sm border border-white p-1 mt-6" @click.prevent="showModal = false;">Done, close</button>
+			<button class="inline-block text-white border border-white p-1 mt-6" @click.prevent="showModal = false;">Done, close</button>
 		</div>
 	</modal>
 </template>

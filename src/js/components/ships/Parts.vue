@@ -14,7 +14,7 @@
 				<div class="mt-4">
 					<button 
 						class="block text-white text-center w-full" 
-						:class="{'text-green' : ram.owned}" 
+						:class="{'text-green-500' : ram.owned}" 
 						v-for="ram in rams"
 						@click="toggle(ram)"
 					>
@@ -30,7 +30,7 @@
 				<div class="mt-4">
 					<button 
 						class="block text-white text-center w-full" 
-						:class="{'text-green' : deckItem.owned}" 
+						:class="{'text-green-500' : deckItem.owned}" 
 						v-for="deckItem in deckItems"
 						@click="toggle(deckItem)"
 					>
@@ -46,7 +46,7 @@
 				<div class="mt-4">
 					<button 
 						class="block text-white text-center w-full" 
-						:class="{'text-green' : hull.owned}" 
+						:class="{'text-green-500' : hull.owned}" 
 						v-for="hull in hulls"
 						@click="toggle(hull)"
 					>

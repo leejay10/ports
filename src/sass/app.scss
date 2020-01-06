@@ -16,11 +16,11 @@ body{
 .nissmallbutton{line-height:26px; height:26px; font-size:12px;}
 
 .bg-nis{
-	background: url(/images/background.png);
+	background: url(images/background.png);
 }
 
 .bg-nis-dark{
-	background: url(/images/background_bright.png);
+	background: url(images/background_bright.png);
 }
 
 .input{
@@ -29,7 +29,7 @@ body{
 	@apply .border-white;
 	@apply .text-white;
 	@apply .cursor-pointer;
-	background: url(/images/background.png);
+	background: url(images/background.png);
 }
 
 @tailwind components;

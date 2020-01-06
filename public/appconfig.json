@@ -1,8 +1,8 @@
 {
 	"appName": "Player-Owned Ports Calculator",
 	"description": "This app will calculate ports voyages for you.",
-	"appUrl": "public/index.html",
-	"configUrl": "public/appconfig.json",
+	"appUrl": "index.html",
+	"configUrl": "appconfig.json",
 	"iconUrl": "",
 	"defaultWidth": 360,
 	"defaultHeight": 138,

@@ -39,12 +39,10 @@
 			read(){
 				let found = this.reader.read();
 
-				console.log('reader found', found);
-
 				if(found){
 					let result = this.reader.result;
 
-					console.log('result', result);
+					console.log('CrewReaderResult', result);
 
 
 					if(!result.type.found){

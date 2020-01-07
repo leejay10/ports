@@ -49,7 +49,7 @@ export default class VoyagesReader
 		let detailsImage = a1lib.bindregion(x, y, width, height);
 		let buffer = detailsImage.toData(x, y , width, height);	
 
-		// alt1.overLayRect(a1lib.mixcolor(255, 255, 255), x, y, width, height, 2000, 1);
+		alt1.overLayRect(a1lib.mixcolor(255, 255, 255), x, y, width, height, 2000, 1);
 
 		let morale = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.morale.x, this.coordinates.morale.y, true, true).text;
 		let combat = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.combat.x, this.coordinates.combat.y, true, true).text;

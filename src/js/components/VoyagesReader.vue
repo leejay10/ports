@@ -21,6 +21,8 @@
 				let success = this.reader.read();
 
 				if(success){
+					console.log('VoyageReaderResult', this.reader.result);
+
 					window.events.$emit('voyage', this.reader.result);
 				}
 			}

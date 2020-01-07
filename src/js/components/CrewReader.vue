@@ -39,8 +39,13 @@
 			read(){
 				let found = this.reader.read();
 
+				console.log('reader found', found);
+
 				if(found){
 					let result = this.reader.result;
+
+					console.log('result', result);
+
 
 					if(!result.type.found){
 						this.showMissingTypeModal(result.type);

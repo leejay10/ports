@@ -29,7 +29,7 @@ body{
 	@apply .border-white;
 	@apply .text-white;
 	@apply .cursor-pointer;
-	background: url(images/background.png);
+	background: url(/ports/public/images/background.png);
 }
 
 @tailwind components;

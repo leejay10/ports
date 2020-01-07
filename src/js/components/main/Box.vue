@@ -33,7 +33,7 @@
 			 */
 			image(){
 				if(this.isCaptain){
-					return this.model.name.length ? 'ports/public/images/hat2.png' : 'ports/public/images/hat_empty.png';
+					return this.model.name.length ? '/ports/public/images/hat2.png' : '/ports/public/images/hat_empty.png';
 				} 
 
 				return this.model.type.image;

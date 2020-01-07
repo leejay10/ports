@@ -44,7 +44,7 @@ export default class CrewReader
 			return false;
 		}
 
-		// alt1.overLayRect(a1lib.mixcolor(255, 255, 255), interfacePosition[0].x - 87, interfacePosition[0].y + 40, 350, 350, 2000, 1);
+		alt1.overLayRect(a1lib.mixcolor(255, 255, 255), interfacePosition[0].x - 87, interfacePosition[0].y + 40, 350, 350, 2000, 1);
 
 		let x = interfacePosition[0].x + 275;
 		let y = interfacePosition[0].y + 150

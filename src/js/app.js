@@ -145,7 +145,7 @@ const app = new Vue({
     	loadCrewTypes(){
     		let regions = require('./ports/data/crew.json');
 
-    		let emptyCrewType = new CrewType('Empty', 'public/images/empty.png', 0, 0, 0, 0);
+    		let emptyCrewType = new CrewType('Empty', 'ports/public/images/empty.png', 0, 0, 0, 0);
     		this.crewTypes.push(emptyCrewType);
     		
     		regions.forEach(region => {

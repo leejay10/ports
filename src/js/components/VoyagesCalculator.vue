@@ -80,6 +80,9 @@
 				let success = this.reader.read();
 
 				if(success){
+					console.log('VoyageReaderResult', this.reader.result);
+				
+				
 					this.morale = this.reader.result.morale != '-' ? this.reader.result.morale : '';
 					this.combat = this.reader.result.combat != '-' ? this.reader.result.combat : '';
 					this.seafaring = this.reader.result.seafaring != '-' ? this.reader.result.seafaring : '';

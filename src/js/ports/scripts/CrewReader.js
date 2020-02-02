@@ -137,7 +137,8 @@ export default class CrewReader
 			' JUDG ;': 'Judge of Dice',
 			' FArCrIEr': 'Farcrier',	
 			' SEA DOG': 'Sea Dog',
-			' JADE MErCHANT': 'Jade Merchant'
+			' JADE MErCHANT': 'Jade Merchant',
+			' BOUNTY HUNTEr': 'Bounty Hunter'
 			
 		};
 

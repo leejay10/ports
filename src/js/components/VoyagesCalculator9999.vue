@@ -76,13 +76,13 @@
 
 				let result = this.calculator.calculate(this.morale, this.combat, this.seafaring);
 				console.log(result);
-			},
+			}
 
 			/**
 			 * Try to read the stat requirements from the screen
 			 * @return {void} 
 			 */
-			read(){
+			/*read(){
 				let success = this.reader.read();
 
 				console.log('VoyageReaderResult', this.reader.result);
@@ -96,7 +96,7 @@
 					this.combat = this.reader.result.combat != '-' ? this.reader.result.combat : '';
 					this.seafaring = this.reader.result.seafaring != '-' ? this.reader.result.seafaring : '';
 				}
-			}
+			}*/
 		}
 	}
 </script>

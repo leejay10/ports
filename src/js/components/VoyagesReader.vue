@@ -46,6 +46,12 @@
 
 					console.log('VoyageReaderResult', result);
 					//console.log('$this', this);
+					let voyage = {};
+					voyage.morale = result.morale;
+					voyage.combat = result.combat;
+					voyage.seafaring = result.seafaring;
+
+					this.$emit('voyage', voyage);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

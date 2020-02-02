@@ -15,7 +15,7 @@
 				<p>Seafaring</p>
 				<input type="text" name="seafaring1" id="seafaring" v-model="seafaring" class="input p-2 text-center" @click="selectText">
 			</div> -->
-			<voyages-reader></voyages-reader>
+			<voyages-reader v-on:voyage="updateVoyage"></voyages-reader>
 			
 			<div class="w-1/4 px-2">
 				<p>&nbsp;</p>
@@ -47,6 +47,12 @@
 		},
 
 		methods: {
+			updateVoyage(voyage){
+				this.morale = voyage.morale;
+				this.combat = voyage.combat;
+				this.seafaring = voyage.seafaring;
+			},
+
 			calculate(){	
 				let captains = this.$root.captains.filter(c => {
 					return c.name.length && !c.ship;

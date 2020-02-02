@@ -23,7 +23,8 @@
 </template>
 
 <script>
-	import VoyagesReader from '../VoyagesReader';
+	//import VoyagesReader from '../VoyagesReader';
+	import VoyagesReader from '../ports/scripts/VoyagesReader.js';
 	import PopCalculator from '../PopCalculator';
 
 	export default {
@@ -81,8 +82,8 @@
 
 				if(success){
 					console.log('VoyageReaderResult', this.reader.result);
-				
-				
+
+
 					this.morale = this.reader.result.morale != '-' ? this.reader.result.morale : '';
 					this.combat = this.reader.result.combat != '-' ? this.reader.result.combat : '';
 					this.seafaring = this.reader.result.seafaring != '-' ? this.reader.result.seafaring : '';

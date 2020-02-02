@@ -24,6 +24,9 @@
 					console.log('VoyageReaderResult', this.reader.result);
 
 					window.events.$emit('voyage', this.reader.result);
+					window.events.$emit('morale', this.reader.result.morale);
+					window.events.$emit('combat', this.reader.result.combat);
+					window.events.$emit('seafaring', this.reader.result.seafaring);
 				}
 			}
 		}

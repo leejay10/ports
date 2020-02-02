@@ -127,7 +127,18 @@ export default class CrewReader
 			'GOLDEN KATANA CLANSMAN': 'Golden Katana Clansman',
 			'STOrM RIDErS CLANSMAN': 'Storm Riders Clansman',
 			'LAZINg LANTErN CLANSMA': 'Blazing Lantern Clansman',
+			//Feral Chimera
 			'TrADEr': 'Trader',
+			'CArD SHArp': 'Card Sharp',
+			'MErCHANT': 'Merchant',
+			'BUrEAUCrAT': 'Bureaucrat',
+			'CArTOG ;': 'Cartographer',
+			';  NEST SNIpEr': 'Crow\'s Nest Sniper',
+			' JUDG ;': 'Judge of Dice',
+			//Far Crier
+			//Sea Dog
+			//Jade Merchant
+			//
 		};
 
 		let attempts = [];

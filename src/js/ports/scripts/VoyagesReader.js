@@ -56,6 +56,8 @@ export default class VoyagesReader
 		let seafaring = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.seafaring.x, this.coordinates.seafaring.y, true, true).text;
 		let time = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.time.x, this.coordinates.time.y, true, true).text;
 
+		//clean strings
+
 		this.result = {
 			morale: morale ? morale : 0,
 			combat: combat ? combat : 0,

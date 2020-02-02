@@ -38,9 +38,10 @@
 		},
 
 		mounted(){
+			window.events.$on('alt-1', this.read);
+		
 			this.reader = new VoyagesReader();			
 
-			window.events.$on('alt-1', this.read);
 		},
 
 		methods: {

@@ -133,7 +133,7 @@ export default class CrewReader
 			'MErCHANT': 'Merchant',
 			'BUrEAUCrAT': 'Bureaucrat',
 			'CArTOG ;': 'Cartographer',
-			';  NEST SNIpEr': 'Crow\'s Nest Sniper',
+			';  NEST SNIpEr': 'Crows\' Nest Sniper',
 			' JUDG ;': 'Judge of Dice',
 			' FArCrIEr': 'Farcrier',	
 			' SEA DOG': 'Sea Dog',

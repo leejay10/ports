@@ -19,7 +19,6 @@
 		</div>
 
 		<crew-reader></crew-reader>
-		<voyages-reader></voyages-reader>
 	</div>
 </template>
 

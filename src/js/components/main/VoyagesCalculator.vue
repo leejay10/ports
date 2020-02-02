@@ -144,6 +144,10 @@
 				combat = parseInt(combat);
 				seafaring = parseInt(seafaring);
 
+				console.log(morale);
+				console.log(combat);
+				console.log(seafaring);
+
 				this.processing = true;
 
 				let result = calculator.calculate(morale, combat, seafaring).then(result => {

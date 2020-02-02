@@ -58,6 +58,16 @@ export default class VoyagesReader
 		let seafaring = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.seafaring.x, this.coordinates.seafaring.y, true, true).text;
 		let time = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.time.x, this.coordinates.time.y, true, true).text;
 
+		let moraleAttempts = getAttempts(this.coordinates.morale.x, this.coordinates.morale.y);
+		let combatAttempts = getAttempts(this.coordinates.combat.x, this.coordinates.combat.y);
+		let seafaringAttempts = getAttempts(this.coordinates.seafaring.x, this.coordinates.seafaring.y);
+		let timeAttempts = getAttempts(this.coordinates.time.x, this.coordinates.time.y);
+
+		let checkAttempts = [];
+		checkAttempts.push(moraleAttempts)
+		checkAttempts.push(combatAttempts)
+		checkAttempts.push(seafaringAttempts)
+		checkAttempts.push(timeAttempts)
 		//clean strings
 
 		this.result = {
@@ -65,9 +75,25 @@ export default class VoyagesReader
 			combat: combat ? combat : 0,
 			seafaring: seafaring ? seafaring : 0,
 			time: time,
+			checkAttempts: checkAttempts,
 		}
 
 		return true;
+	}
+
+	getAttempts(startX, startY){
+		let attempts = [];
+		let endX = startX + 60;
+
+		for(let findX = startX; findX < endX ; findX++){
+			let attempt = OCR.readLine(buffer, this.fonts.mono, this.colors.white, findX, startY, true, true).text;
+			
+			if(attempt){
+				attempts.push(attempt);
+			}
+		}
+
+		return attempts;
 	}	
 }
 

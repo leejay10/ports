@@ -43,6 +43,10 @@
 
 					console.log('VoyageReaderResult', result);
 
+					this.morale = result.morale;
+					this.combat = result.combat;
+					this.seafaring = result.seafaring;
+
 					
 				}
 			}

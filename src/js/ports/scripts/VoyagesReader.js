@@ -51,10 +51,10 @@ export default class VoyagesReader
 
 		alt1.overLayRect(a1lib.mixcolor(255, 255, 255), x, y, width, height, 2000, 1);
 
-		let morale = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.morale.x, this.coordinates.morale.y, true, true).text;
-		let combat = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.combat.x, this.coordinates.combat.y, true, true).text;
-		let seafaring = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.seafaring.x, this.coordinates.seafaring.y, true, true).text;
-		let time = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.time.x, this.coordinates.time.y, true, true).text;
+		//let morale = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.morale.x, this.coordinates.morale.y, true, true).text;
+		//let combat = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.combat.x, this.coordinates.combat.y, true, true).text;
+		//let seafaring = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.seafaring.x, this.coordinates.seafaring.y, true, true).text;
+		//let time = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.time.x, this.coordinates.time.y, true, true).text;
 
 		let moraleAttempts = this.getAttempts(buffer, this.coordinates.morale.x, this.coordinates.morale.y);
 		let combatAttempts = this.getAttempts(buffer, this.coordinates.combat.x, this.coordinates.combat.y);
@@ -66,7 +66,11 @@ export default class VoyagesReader
 		checkAttempts.push(combatAttempts)
 		checkAttempts.push(seafaringAttempts)
 		checkAttempts.push(timeAttempts)
-		//clean strings
+		
+		let morale = mostFreqStr(moraleAttempts);
+		let combat = mostFreqStr(combatAttempts);
+		let seafaring = mostFreqStr(seafaringAttempts);
+		let time = mostFreqStr(timeAttempts);
 
 		this.result = {
 			morale: morale ? morale : 0,
@@ -91,7 +95,6 @@ export default class VoyagesReader
 			}
 		}
 
-		console.log(mostFreqStr(attempts));
 
 		return attempts;
 	}

@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="p-4 flex items-center -mx-2">
-			<div class="w-1/4 px-2">
+			<!-- <div class="w-1/4 px-2">
 				<p>Morale</p>
 				<input type="text" name="morale" id="morale" v-model="morale" class="input p-2 text-center" @click="selectText">
 			</div>
@@ -14,7 +14,8 @@
 			<div class="w-1/4 px-2">
 				<p>Seafaring</p>
 				<input type="text" name="seafaring1" id="seafaring" v-model="seafaring" class="input p-2 text-center" @click="selectText">
-			</div>
+			</div> -->
+			<voyages-reader></voyages-reader>
 			
 			
 			<div class="w-1/4 px-2">
@@ -34,7 +35,7 @@
 
 
 	export default {
-		
+		components: {VoyagesReader},
 
 		data(){
 			return {

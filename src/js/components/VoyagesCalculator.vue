@@ -26,7 +26,7 @@
 
 <script>
 	import VoyagesReader from '../VoyagesReader';
-	import VoyagesReader from '../ports/scripts/VoyagesReader.js';
+	//import VoyagesReader from '../ports/scripts/VoyagesReader.js';
 	import PopCalculator from '../PopCalculator';
 
 	export default {
@@ -41,9 +41,10 @@
 		},
 
 		mounted(){
-			window.events.$on('alt-1', this.read);
-		
-			this.reader = new VoyagesReader();			
+			
+			// this.reader = new VoyagesReader();
+			// window.events.$on('alt-1', this.read);
+					
 
 		},
 

@@ -58,10 +58,10 @@ export default class VoyagesReader
 		let seafaring = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.seafaring.x, this.coordinates.seafaring.y, true, true).text;
 		let time = OCR.readLine(buffer, this.fonts.mono, this.colors.white, this.coordinates.time.x, this.coordinates.time.y, true, true).text;
 
-		let moraleAttempts = getAttempts(this.coordinates.morale.x, this.coordinates.morale.y);
-		let combatAttempts = getAttempts(this.coordinates.combat.x, this.coordinates.combat.y);
-		let seafaringAttempts = getAttempts(this.coordinates.seafaring.x, this.coordinates.seafaring.y);
-		let timeAttempts = getAttempts(this.coordinates.time.x, this.coordinates.time.y);
+		let moraleAttempts = getAttempts(buffer, this.coordinates.morale.x, this.coordinates.morale.y);
+		let combatAttempts = getAttempts(buffer, this.coordinates.combat.x, this.coordinates.combat.y);
+		let seafaringAttempts = getAttempts(buffer, this.coordinates.seafaring.x, this.coordinates.seafaring.y);
+		let timeAttempts = getAttempts(buffer, this.coordinates.time.x, this.coordinates.time.y);
 
 		let checkAttempts = [];
 		checkAttempts.push(moraleAttempts)
@@ -102,7 +102,7 @@ function base64(imagedata) {
     return image.src;
 }
 
-function getAttempts(startX, startY){
+function getAttempts(buffer, startX, startY){
 	let attempts = [];
 	let endX = startX + 60;
 

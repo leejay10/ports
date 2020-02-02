@@ -34,8 +34,6 @@ export default class VoyagesReader
 		let fullImage = a1lib.bindfullrs();
 		let interfacePosition = a1lib.findsubimg(fullImage, this.images.voyageList);
 
-		console.log("Do we read?");
-
 		if(!interfacePosition.length){
 			this.legacy = true;
 			interfacePosition = a1lib.findsubimg(fullImage, this.images.legacyVoyageList);

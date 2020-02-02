@@ -30,6 +30,8 @@
 	import PopCalculator from '../PopCalculator';
 
 	export default {
+		components: {VoyagesReader},
+
 		data(){
 			return {
 				reader: null,
@@ -41,7 +43,7 @@
 		},
 
 		mounted(){
-			
+
 			// this.reader = new VoyagesReader();
 			// window.events.$on('alt-1', this.read);
 					

@@ -80,8 +80,10 @@
 			read(){
 				let success = this.reader.read();
 
+				console.log('VoyageReaderResult', this.reader.result);
+
+
 				if(success){
-					console.log('VoyageReaderResult', this.reader.result);
 
 
 					this.morale = this.reader.result.morale != '-' ? this.reader.result.morale : '';

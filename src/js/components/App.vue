@@ -29,10 +29,10 @@
 	import SettingsScreen from './settings/SettingsScreen';
 
 	import CrewReader from './CrewReader';
-	import VoyagesReader from './VoyagesReader';
+	//import VoyagesReader from './VoyagesReader';
 
 	export default {
-		components: {MainScreen, ShipsScreen, PortsScreen, SettingsScreen, CrewReader, VoyagesReader},
+		components: {MainScreen, ShipsScreen, PortsScreen, SettingsScreen, CrewReader},
 
 		data(){
 			return {

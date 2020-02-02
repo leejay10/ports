@@ -24,6 +24,9 @@
 		data(){
 			return {
 				reader: null,
+				morale: 0, 
+				combat: 0, 
+				seafaring: 0
 			}
 		},
 

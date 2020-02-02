@@ -135,10 +135,10 @@ export default class CrewReader
 			'CArTOG ;': 'Cartographer',
 			';  NEST SNIpEr': 'Crow\'s Nest Sniper',
 			' JUDG ;': 'Judge of Dice',
-			//Far Crier
-			//Sea Dog
-			//Jade Merchant
-			//
+			' FArCrIEr': 'Farcrier',	
+			' SEA DOG': 'Sea Dog',
+			' JADE MErCHANT': 'Jade Merchant'
+			
 		};
 
 		let attempts = [];

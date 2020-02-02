@@ -1,17 +1,19 @@
 <template>
 	<div>
 		<form class="flex flex-wrap -mx-2" @submit.prevent="calculate">
-			<div class="w-1/4 px-2">
+			
+			<!-- <div class="w-1/4 px-2">
 				<input type="text" name="morale" id="morale" v-model="morale" class="w-full p-1" placeholder="Morale">
 			</div>
-
+			
 			<div class="w-1/4 px-2">
 				<input type="text" name="combat" id="combat" v-model="combat" class="w-full p-1" placeholder="Combat">
 			</div>
-
+			
 			<div class="w-1/4 px-2">
 				<input type="text" name="seafaring" id="seafaring" v-model="seafaring" class="w-full p-1" placeholder="Seafaring">
-			</div>
+			</div> -->
+			<voyages-reader></voyages-reader>
 
 			<div class="w-1/4 px-2">
 				<button class="w-full p-1 bg-blue text-white rounded" @click.prevent="calculate">
@@ -23,7 +25,7 @@
 </template>
 
 <script>
-	//import VoyagesReader from '../VoyagesReader';
+	import VoyagesReader from '../VoyagesReader';
 	import VoyagesReader from '../ports/scripts/VoyagesReader.js';
 	import PopCalculator from '../PopCalculator';
 
@@ -84,6 +86,7 @@
 
 
 				if(success){
+
 
 
 					this.morale = this.reader.result.morale != '-' ? this.reader.result.morale : '';

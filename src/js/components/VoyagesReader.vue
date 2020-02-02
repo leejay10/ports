@@ -1,4 +1,16 @@
-<template></template>
+<template>
+	<div class="w-1/4 px-2">
+		<input type="text" name="morale" id="morale" v-model="morale" class="w-full p-1" placeholder="Morale">
+	</div>
+
+	<div class="w-1/4 px-2">
+		<input type="text" name="combat" id="combat" v-model="combat" class="w-full p-1" placeholder="Combat">
+	</div>
+
+	<div class="w-1/4 px-2">
+		<input type="text" name="seafaring" id="seafaring" v-model="seafaring" class="w-full p-1" placeholder="Seafaring">
+	</div>
+</template>
 
 <script>
 	import VoyagesReader from '../ports/scripts/VoyagesReader.js';
@@ -21,12 +33,11 @@
 				let success = this.reader.read();
 
 				if(success){
-					console.log('VoyageReaderResult', this.reader.result);
+					let result = this.reader.result;
 
-					window.events.$emit('voyage', this.reader.result);
-					window.events.$emit('morale', this.reader.result.morale);
-					window.events.$emit('combat', this.reader.result.combat);
-					window.events.$emit('seafaring', this.reader.result.seafaring);
+					console.log('VoyageReaderResult', result);
+
+					
 				}
 			}
 		}

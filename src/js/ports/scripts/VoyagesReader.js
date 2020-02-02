@@ -120,22 +120,22 @@ function base64(imagedata) {
 }
 
 function mostFreqStr (arr) {
-      var obj = {}, mostFreq = 0, which = [];
- 
-      arr.forEach(ea => {
-        if (!obj[ea]) {
-          obj[ea] = 1;
-        } else {
-          obj[ea]++;
-        }
- 
-        if (obj[ea] > mostFreq) {
-          mostFreq = obj[ea];
-          which = [ea];
-        } else if (obj[ea] === mostFreq) {
-          which.push(ea);
-        }
-      });
- 
-      return which[0];
+  var obj = {}, mostFreq = 0, which = [];
+
+  arr.forEach(ea => {
+    if (!obj[ea]) {
+      obj[ea] = 1;
+    } else {
+      obj[ea]++;
     }
+
+    if (obj[ea] > mostFreq) {
+      mostFreq = obj[ea];
+      which = [ea];
+    } else if (obj[ea] === mostFreq) {
+      which.push(ea);
+    }
+  });
+
+  return which[0];
+}

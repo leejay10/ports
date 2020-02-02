@@ -42,6 +42,7 @@
 					let result = this.reader.result;
 
 					console.log('VoyageReaderResult', result);
+					console.log('$this', this);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

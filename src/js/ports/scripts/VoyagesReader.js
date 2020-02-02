@@ -137,5 +137,5 @@ function mostFreqStr (arr) {
         }
       });
  
-      return which;
+      return which[0];
     }

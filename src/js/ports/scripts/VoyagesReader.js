@@ -79,6 +79,20 @@ export default class VoyagesReader
 		return true;
 	}
 
+	getAttempts(buffer, startX, startY){
+		let attempts = [];
+		let endX = startX + 60;
+
+		for(let findX = startX; findX < endX ; findX++){
+			let attempt = OCR.readLine(buffer, this.fonts.mono, this.colors.white, findX, startY, true, true).text;
+			
+			if(attempt){
+				attempts.push(attempt);
+			}
+		}
+
+		return attempts;
+	}
 		
 }
 
@@ -99,7 +113,7 @@ function base64(imagedata) {
     image.src = canvas.toDataURL();
     return image.src;
 }
-
+/*
 function getAttempts(buffer, startX, startY){
 	let attempts = [];
 	let endX = startX + 60;
@@ -113,4 +127,4 @@ function getAttempts(buffer, startX, startY){
 	}
 
 	return attempts;
-}
+}*/

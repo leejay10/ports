@@ -91,6 +91,8 @@ export default class VoyagesReader
 			}
 		}
 
+		console.log(mostFreqStr(attempts));
+
 		return attempts;
 	}
 		
@@ -113,18 +115,24 @@ function base64(imagedata) {
     image.src = canvas.toDataURL();
     return image.src;
 }
-/*
-function getAttempts(buffer, startX, startY){
-	let attempts = [];
-	let endX = startX + 60;
 
-	for(let findX = startX; findX < endX ; findX++){
-		let attempt = OCR.readLine(buffer, this.fonts.mono, this.colors.white, findX, startY, true, true).text;
-		
-		if(attempt){
-			attempts.push(attempt);
-		}
-	}
-
-	return attempts;
-}*/
+function mostFreqStr (arr) {
+      var obj = {}, mostFreq = 0, which = [];
+ 
+      arr.forEach(ea => {
+        if (!obj[ea]) {
+          obj[ea] = 1;
+        } else {
+          obj[ea]++;
+        }
+ 
+        if (obj[ea] > mostFreq) {
+          mostFreq = obj[ea];
+          which = [ea];
+        } else if (obj[ea] === mostFreq) {
+          which.push(ea);
+        }
+      });
+ 
+      return which;
+    }

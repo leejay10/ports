@@ -2,7 +2,7 @@
 	<div class="flex">
 		<div class="w-1/3 px-2">
 			<p>Morale</p>
-			<input type="text" name="morale" id="morale" v-model="morale" class="input p-2 text-center" @click="selectText">
+			<input type="text" name="morale" id="morale" v-model="morale" class="input p-2 text-center" @click="selectText" value="{{this.morale}}">
 		</div>
 
 		<div class="w-1/3 px-2">
@@ -45,7 +45,7 @@
 					let result = this.reader.result;
 
 					console.log('VoyageReaderResult', result);
-					console.log('$this', this);
+					//console.log('$this', this);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

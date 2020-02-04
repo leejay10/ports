@@ -74,7 +74,7 @@
 					// voyage.seafaring = result.seafaring;
 
 					// this.$emit('voyage', voyage);
-					self.emitVoyage(result.morale, result.combat, result.seafaring);
+					this.emitVoyage(result.morale, result.combat, result.seafaring);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

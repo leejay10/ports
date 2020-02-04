@@ -2,7 +2,7 @@
 	<modal v-if="showModal" @close="showModal = false" w="80%">
 		<h3 slot="title">Could not find the crew member type</h3>
 		<div class="p-4">
-			<p class="text-white">The reader could not find the crew type. Please copy the data in the box below and send it to Popoplo0 on Discord</p>
+			<p class="text-white">The reader could not find the crew type. Please copy the data in the box below and send it to leejay10 on Discord</p>
 
 			<textarea v-html="attempts" class="text-gray-800 mt-4 w-full" rows="8" @click.prevent="selectText"></textarea>
 

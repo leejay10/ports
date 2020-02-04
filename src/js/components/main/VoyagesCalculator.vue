@@ -54,6 +54,8 @@
 			},
 
 			calculate(){	
+				this.processing = true;
+
 				let captains = this.$root.captains.filter(c => {
 					return c.name.length && !c.ship;
 				}).map(c => {
@@ -127,10 +129,12 @@
 				});
 
 				if(captains.length < 1){
+					this.processing = false;
 					return this.$root.flashError('You need at least 1 available captain.');
 				}
 
 				if(crew.length < 5){
+					this.processing = false;
 					return this.$root.flashError('You need at least 5 available crew members.');
 				}
 
@@ -148,7 +152,7 @@
 				console.log(combat);
 				console.log(seafaring);
 
-				this.processing = true;
+				
 
 				let result = calculator.calculate(morale, combat, seafaring).then(result => {
 					setTimeout(() => {

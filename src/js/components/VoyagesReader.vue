@@ -56,6 +56,7 @@
 				voyage.combat = combat;
 				voyage.seafaring = seafaring;
 
+				console.log("emit", voyage);
 				this.$emit('voyage', voyage);
 			},
 			read(){

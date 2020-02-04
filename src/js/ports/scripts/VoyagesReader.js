@@ -34,10 +34,15 @@ export default class VoyagesReader
 		let fullImage = a1lib.bindfullrs();
 		let interfacePosition = a1lib.findsubimg(fullImage, this.images.voyageList);
 
+		console.log("Interface Position", interfacePosition.length);
+
 		if(!interfacePosition.length){
-			this.legacy = true;
 			interfacePosition = a1lib.findsubimg(fullImage, this.images.legacyVoyageList);
-			if(!interfacePosition.length){return false;}
+			if(!interfacePosition.length){
+				return false;
+			}else{
+				this.legacy = true;
+			}
 		}
 
 		let offsetX = this.legacy ? 50 : 375;

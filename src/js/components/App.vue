@@ -1,5 +1,5 @@
 <template>
-	<div style="width: 450px; height: 675px;" class="bg-nis shadow relative">
+	<div style="width: 450px; height: 720px;" class="bg-nis shadow relative">
 		<nav>
 			<button class="py-1 px-4 text-white" :class="{'border-b border-white' : screen == 'main'}" @click.prevent="screen = 'main';">Main</button>
 			<button class="py-1 px-4 text-white" :class="{'border-b border-white' : screen == 'ships'}" @click.prevent="screen = 'ships';">Ships</button>

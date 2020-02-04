@@ -39,15 +39,15 @@
 		methods: {
 			updateMorale(value){
 				this.morale = value;
-				emitVoyage(this.morale, this.combat, this.seafaring);
+				this.emitVoyage(this.morale, this.combat, this.seafaring);
 			},
 			updateCombat(value){
 				this.combat = value;
-				emitVoyage(this.morale, this.combat, this.seafaring);
+				this.emitVoyage(this.morale, this.combat, this.seafaring);
 			},
 			updateSeafaring(value){
 				this.seafaring = value;
-				emitVoyage(this.morale, this.combat, this.seafaring);
+				this.emitVoyage(this.morale, this.combat, this.seafaring);
 			},
 
 			emitVoyage(morale, combat, seafaring){
@@ -74,7 +74,7 @@
 					// voyage.seafaring = result.seafaring;
 
 					// this.$emit('voyage', voyage);
-					emitVoyage(result.morale, result.combat, result.seafaring);
+					this.emitVoyage(result.morale, result.combat, result.seafaring);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

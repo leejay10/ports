@@ -67,6 +67,7 @@
 					let result = this.reader.result;
 
 					console.log('VoyageReaderResult', result);
+					console.log(this);
 					//console.log('$this', this);
 					// let voyage = {};
 					// voyage.morale = result.morale;
@@ -74,7 +75,7 @@
 					// voyage.seafaring = result.seafaring;
 
 					// this.$emit('voyage', voyage);
-					this.emitVoyage(result.morale, result.combat, result.seafaring);
+					self.emitVoyage(result.morale, result.combat, result.seafaring);
 
 					this.morale = result.morale;
 					this.combat = result.combat;

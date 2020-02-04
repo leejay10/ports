@@ -142,7 +142,8 @@ const app = new Vue({
     		this.captains = JSON.parse(captains);
     	},
         clearCaptains(){
-            this.captains = [];
+            localStorage.removeItem('captains');
+            this.loadCaptains();
         },
 
         /**
@@ -186,7 +187,8 @@ const app = new Vue({
             this.crew = JSON.parse(crew);
     	},
         clearCrew(){
-            this.crew = [];
+            localStorage.removeItem('crew');
+            this.loadCrew();
         },
 
         /**

@@ -76,6 +76,7 @@
 					}
 				});
 
+				this.$root.clearRoster();
 				this.$root.save();
 				this.hide();
 			},

@@ -102,6 +102,10 @@ const app = new Vue({
             this.loadPorts();
             this.loadSettings();
     	},
+        clearRoster(){
+            this.clearCaptains();
+            this.clearCrew();
+        },
 
         /**
          * Used for testing purposes only
@@ -137,6 +141,9 @@ const app = new Vue({
 
     		this.captains = JSON.parse(captains);
     	},
+        clearCaptains(){
+            this.captains = [];
+        },
 
         /**
          * Load the types of crew
@@ -178,6 +185,9 @@ const app = new Vue({
 
             this.crew = JSON.parse(crew);
     	},
+        clearCrew(){
+            this.crew = [];
+        },
 
         /**
          * Load the ship parts

@@ -118,27 +118,80 @@ export default class CrewReader
 	getType(buffer){		
 		let types = {
 			' EMpTY SLOT' : 'Empty',
-			'SIrEN WHALErIDEr' : 'Siren Whalerider',
+			//The Arc
+			//	Travelling Drunk
+			//	Stowaway
+			//	Smuggler
+			'VArrOCK :' : 'Varrock Chef',
+			//	Brimhaven Pirate
+			//	Catherby Fisherman
+			//	Dwarven Engineer
+			//	Ardougne Shopkeeper
+			//	Bamboo Golem
+			//	First Mate
+			//	Cyclops
+			
+			//The Skull
+			'EASTErN BANNErMAN' : 'Eastern Bannerman',
 			'EASTErN MUSK; TEEr' : 'Eastern Musketeer',
 			'EASTErN GUIDE' : 'Eastern Guide',
-			'EASTErN BANNErMAN' : 'Eastern Bannerman',
+			'SIrEN WHALErIDEr' : 'Siren Whalerider',
+			//	Fireworks Enthusiast
+			//	Palmist
+			//	Exploding Golem
 			'EASTErN OVErSEEr' : 'Eastern Overseer',
-			'VArrOCK :' : 'Varrock Chef',
+			
+			//The Hook
 			'GOLDEN KATANA CLANSMAN': 'Golden Katana Clansman',
 			'STOrM RIDErS CLANSMAN': 'Storm Riders Clansman',
 			'LAZINg LANTErN CLANSMA': 'Blazing Lantern Clansman',
-			//Feral Chimera
+			//	Firework Expert	
 			'TrADEr': 'Trader',
+			//	Soothsayer
+			//	Slate Golem
+			//	Feral Chimera
+			
+			//The Scythe
 			'CArD SHArp': 'Card Sharp',
-			'MErCHANT': 'Merchant',
-			'BUrEAUCrAT': 'Bureaucrat',
 			'CArTOG ;': 'Cartographer',
 			';  NEST SNIpEr': 'Crows\' Nest Sniper',
-			' JUDG ;': 'Judge of Dice',
+			//	Explosives Expert
+			'MErCHANT': 'Merchant',
+			//	Cherrywood Golem
+			'BUrEAUCrAT': 'Bureaucrat',
+			//	Sea Witch
+			
+			//The Bowl
 			' FArCrIEr': 'Farcrier',	
 			' SEA DOG': 'Sea Dog',
+			' BOUNTY HUNTEr': 'Bounty Hunter',
+			//	Firework Maniac
 			' JADE MErCHANT': 'Jade Merchant',
-			' BOUNTY HUNTEr': 'Bounty Hunter'
+			//	Sacrificial Soothsayer
+			//	Jade Golem
+			' JUDG ;': 'Judge of Dice',
+
+			//The Pincers
+			//   Travelling Band
+			//   Ferocious Tiger-Rider
+			//   Harem of Fortune Tellers
+			//   Oxhead and Horseface
+
+			//The Loop
+			//   Party Animal
+			//   Sea-fort Guard
+			//   Pearl Diver
+			//   Reef Rider
+			'TER ;:': 'Terracotta Merchant',
+			//   Wisp
+
+			//The Shield
+			'ZHONG ;':  'Zhonghu Player',
+			'GU BODYG ;': 'Gu Bodyguard',
+			'STArG': 'Stargazer',
+			//   Azure Golem
+			';  HArIDIAN EXILE': 'Kharidian Exile',
+
 			
 		};
 

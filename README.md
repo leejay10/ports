@@ -5,7 +5,7 @@ This a Played-Owned Ports calculator for the [Alt-1 toolkit](https://runeapps.or
 ## Installation
 
 To add the plugin to Alt1, copy the following and paste into your address bar.
-`alt1://addapp/https://leejay10.github.io/ports/appconfig.json`
+`alt1://addapp/https://leejay10.github.io/ports/public/appconfig.json`
 
 Once added, you will need to accept the permissions to complete the installation process.
 
@@ -26,7 +26,7 @@ Once you have entered your crew, go to the Voyage List and select you voyage you
 
 ![](https://i.imgur.com/kmdKUCa.png)
 
-Press Calculate on the plugin interface and it will display your best combination of crew for this voyage. You can then assign this crew to a particular ship
+Press Calculate on the plugin interface and it will display your best combination of crew for this voyage. ~~You can then assign this crew to a particular ship~~ **Whilst in development, you will need to clear your roster before calculating another journey due to the re-positioning of crew members once a journey has been sent off. Currently working on a solution for this**
 
 ![](https://i.imgur.com/5JBs1mr.png)
 

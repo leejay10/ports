@@ -26,7 +26,7 @@ Once you have entered your crew, go to the Voyage List and select you voyage you
 
 ![](https://i.imgur.com/kmdKUCa.png)
 
-Press Calculate on the plugin interface and it will display your best combination of crew for this voyage. You can then assign this crew to a particular ship
+Press Calculate on the plugin interface and it will display your best combination of crew for this voyage. ~~You can then assign this crew to a particular ship~~ **Whilst in development, you will need to clear your roster before calculating another journey due to the re-positioning of crew members once a journey has been sent off. Currently working on a solution for this**
 
 ![](https://i.imgur.com/5JBs1mr.png)
 

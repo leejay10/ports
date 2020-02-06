@@ -19,14 +19,15 @@
 			</div>
 
 			<div class="w-1/2 flex items-center">
-				Assign to ship : 
-
+				<!-- Assign to ship : 
+				
 				<div class="flex ml-2">
 					<button class="text-white border border-white w-6 h-6 text-sm rounded-full mr-1" @click="assignToShip(1)">1</button>
 					<button class="text-white border border-white w-6 h-6 text-sm rounded-full mr-1" @click="assignToShip(2)">2</button>
 					<button class="text-white border border-white w-6 h-6 text-sm rounded-full mr-1" @click="assignToShip(3)">3</button>
 					<button class="text-white border border-white w-6 h-6 text-sm rounded-full" @click="assignToShip(4)">4</button>
-				</div>
+				</div> -->
+				<button class="text-white border border-white text-sm rounded-full" @click="assignToShip(1)">Clear Roster to calculate next journey</button>
 			</div>
 		</div>
 	</div>

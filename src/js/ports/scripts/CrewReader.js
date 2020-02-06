@@ -149,7 +149,7 @@ export default class CrewReader
 			'TrADEr': 'Trader',
 			//	Soothsayer
 			//	Slate Golem
-			//	Feral Chimera
+			' ; ErAL CHIMErA':	'Feral Chimera',
 			
 			//The Scythe
 			'CArD SHArp': 'Card Sharp',
@@ -159,7 +159,7 @@ export default class CrewReader
 			'MErCHANT': 'Merchant',
 			//	Cherrywood Golem
 			'BUrEAUCrAT': 'Bureaucrat',
-			//	Sea Witch
+			' ;; A WITCH':	'Sea Witch',
 			
 			//The Bowl
 			' FArCrIEr': 'Farcrier',	

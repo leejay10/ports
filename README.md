@@ -5,7 +5,7 @@ This a Played-Owned Ports calculator for the [Alt-1 toolkit](https://runeapps.or
 ## Installation
 
 To add the plugin to Alt1, copy the following and paste into your address bar.
-`alt1://addapp/https://leejay10.github.io/ports/appconfig.json`
+`alt1://addapp/https://leejay10.github.io/ports/public/appconfig.json`
 
 Once added, you will need to accept the permissions to complete the installation process.
 
